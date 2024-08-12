@@ -4,7 +4,7 @@ from langchain.memory import ConversationBufferMemory
 from utils import qa_agent
 
 
-st.title("📃NETA GPT 智能PFD问答器💡")
+st.title("📃克隆GPT 智能PFD问答器💡")
 
 with st.sidebar:
     openai_api_key = st.text_input("请输入OpenAI API密钥：", type="password")
